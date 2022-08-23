@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0; outline: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+    background-color: powderblue;
+
+}
+.container {
+    padding:20px;
+    border:5px solid #1272c6;
+    border-radius: 20px;
+    background-color: rgba(255,255,255,.7);
+    text-align: center;
+}
+
+#title-top {
+    font-size: 2.5rem;
+}
+
+#title-bottom{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+#result-area img{
+    width:30%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+#result-text {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+#chances {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+#user-input{
+    padding: 18px;
+    font-size: 1.2rem;
+}
+
+#play-button{
+    font-size: 1.6rem;
+    border:none;
+    background-color:#1272c6;
+    color: white;
+    border-radius: 50%;
+    width:70px; height: 70px;
+}
+
+#play-button:hover{
+    opacity: .8;
+}
+
+#reset-area{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#reset-button {
+    font-size: 1.6rem;
+    border:none;
+    background-color:firebrick;
+    color:white;
+    border-radius: 50px;
+    width:200px; height: 70px;
+}
+
+#reset-button:hover {
+    opacity: .8;
+}
